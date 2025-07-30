@@ -11,6 +11,7 @@ body {
     background: #0e0e0e;
     overflow-x: hidden;
     position: relative;
+    height: 100%;
 }
 
 /* Background Video */
@@ -63,7 +64,7 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,3 +210,42 @@ body {
     height: 40vh;
     justify-content: center;
 }
+
+.project-list {
+  margin-top: 100px auto;
+    padding: 0 10%;
+}
+
+.project-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(2, 156, 246, 0.1);
+  text-align: left;
+}
+
+.project-card h2 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.project-card a {
+  color: #3498db;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.project-card a:hover {
+  text-decoration: none;
+  color:#00f7ce
+}
+
+
+
